@@ -1,0 +1,13 @@
+﻿@model PeliculasTESH.Models.Peliculas
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    @Html.LabelFor(model => model.Title);
+    @Html.DisplayFor(model => model.Title);
+</div>
